@@ -20,7 +20,18 @@ $ ./env/bin/pip install -r requirements.txt
 ## Configuration
 
 The project provides an example development.ini file that you need to
-adjust in order to start development. Please configure a database.
+adjust in order to start development. 
+
+``` bash
+$ cp development.ini.sample development.ini
+```
+
+Please configure a database:
+
+```bash
+$ ../env/bin/initialize_PenfoldBox_db development.ini
+```
+
 
 ## Development
 
