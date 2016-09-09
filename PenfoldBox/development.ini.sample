@@ -15,12 +15,9 @@ pyramid.includes =
     pyramid_debugtoolbar
     pyramid_beaker
     pyramid_tm
-    pyramid_basemodel
-    pyramid_simpleauth
-    pyramid_mako
 
-sqlalchemy.url = mysql://root:eliSa050482_m%B@localhost:3306/penfoldbox
-sqlalchemy.pool_recycle = 3600
+sqlalchemy.url = sqlite:///%(here)s/penfold.sqlite
+# sqlalchemy.pool_recycle = 3600
 
 # By default, the toolbar only appears for clients from IP addresses
 # '127.0.0.1' and '::1'.
