@@ -1,0 +1,2 @@
+graft src/dfs
+include *.cfg *.rst *.in
