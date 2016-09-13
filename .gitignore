@@ -1,5 +1,6 @@
 development.ini
 .idea
-#.codeintel
-# db.*
+.codeintel
+db.*
 local_settings.py
+fabfile.py
