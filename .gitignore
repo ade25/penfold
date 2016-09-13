@@ -1,2 +1,5 @@
 development.ini
 .idea
+#.codeintel
+# db.*
+local_settings.py
